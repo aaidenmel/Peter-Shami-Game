@@ -62,6 +62,12 @@ function draw() {
   if (xPos > 1150 && xPos < 1170 && yPos < 270) {
     xPos = xPos - 10;
   }
+  if (xPos > 1200 && xPos < 1220 && yPos < 270) {
+    xPos = xPos + 10;
+  }
+  if (yPos < 270 && xPos > 1150 && xPos < 1220) {
+    yPos = yPos + 10;
+  }
 }
 
 function Ian() {
