@@ -1,7 +1,7 @@
 let peter;
 var pX = [];
 var pY = [];
-var peterShami = "ginger";
+var peterShami = "orange";
 function preload() {
   img = loadImage('Photos of Sir Peter/Peter Shami.PNG');
 }
